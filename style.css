@@ -1,0 +1,44 @@
+#drop-area {
+  border: 2px dashed #ccc;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+#drop-area.hover {
+  background-color: #f8f8f8;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.hero-title {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.program-card {
+  transition: transform 0.3s ease;
+}
+.program-card:hover {
+  transform: scale(1.05);
+}
+
+
+.alert-info {
+  animation: slideDown 1s ease-in-out;
+}
+@keyframes slideDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
